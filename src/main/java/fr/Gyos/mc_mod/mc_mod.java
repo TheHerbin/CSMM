@@ -1,4 +1,4 @@
-package fr.Gyos;
+package fr.Gyos.mc_mod;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
