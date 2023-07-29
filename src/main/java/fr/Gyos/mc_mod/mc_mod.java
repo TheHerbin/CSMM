@@ -19,7 +19,7 @@ public class mc_mod {
 
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.Items.register(bus);
-}
+    }
     private void setup(FMLCommonSetupEvent e){
 
     }
