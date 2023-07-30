@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all" : "mc_mod:block/bobux_block"
+    "all" : "mcmod:block/bobux_block"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mc_mod:item/bobux"
+    "layer0": "mcmod:item/bobux"
   }
 }
