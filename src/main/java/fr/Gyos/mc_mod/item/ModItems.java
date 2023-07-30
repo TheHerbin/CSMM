@@ -1,4 +1,4 @@
-package fr.Gyos.mc_mod.init;
+package fr.Gyos.mc_mod.item;
 
 import fr.Gyos.mc_mod.mc_mod;
 import net.minecraft.world.item.Item;
@@ -10,6 +10,6 @@ public class ModItems {
 
     public static final DeferredRegister<Item> Items = DeferredRegister.create(ForgeRegistries.ITEMS, mc_mod.MODID);
 
-    public static final RegistryObject<Item> BOBUX = Items.register("bobux", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BOBUX = Items.register("bobux", () -> new bobux(new Item.Properties()));
 
 }
