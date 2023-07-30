@@ -8,8 +8,8 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
 
-    public static final DeferredRegister<Item> Items = DeferredRegister.create(ForgeRegistries.ITEMS, mc_mod.MODID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, mc_mod.MODID);
 
-    public static final RegistryObject<Item> BOBUX = Items.register("bobux", () -> new bobux(new Item.Properties()));
+    public static final RegistryObject<Item> BOBUX = ITEMS.register("bobux", () -> new bobux(new Item.Properties()));
 
 }

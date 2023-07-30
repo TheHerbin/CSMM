@@ -1,5 +1,6 @@
 package fr.Gyos.mc_mod;
 
+import fr.Gyos.mc_mod.item.ModBlocks;
 import fr.Gyos.mc_mod.item.ModItems;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -17,7 +18,8 @@ public class mc_mod {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientSetup);
 
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-        ModItems.Items.register(bus);
+        ModItems.ITEMS.register(bus);
+        ModBlocks.BLOCKS.register(bus);
     }
     private void setup(FMLCommonSetupEvent e){
 
