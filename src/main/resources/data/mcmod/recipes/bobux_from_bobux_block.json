@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mcmod:bobux_block"
+    }
+  ],
+  "result": {
+    "item": "mcmod:bobux",
+    "count": 9
+  }
+}
