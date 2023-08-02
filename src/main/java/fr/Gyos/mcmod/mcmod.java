@@ -43,6 +43,7 @@ public class mcmod {
         if(event.getTab() == ModCreativeModeTabs.MOD_TAB) {
             event.accept(ModItems.BOBUX);
             event.accept(ModBlocks.BOBUX_BLOCK);
+            event.accept(ModBlocks.BOBUX_ORE);
             event.accept(ModItems.BOBUX_SWORD);
         }
 
