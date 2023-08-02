@@ -42,11 +42,11 @@ public class mcmod {
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
         if(event.getTab() == ModCreativeModeTabs.MOD_TAB) {
             event.accept(ModItems.BOBUX);
+            event.accept(ModBlocks.BOBUX_BLOCK);
+            event.accept(ModItems.BOBUX_SWORD);
         }
 
-        if(event.getTab() == ModCreativeModeTabs.MOD_TAB) {
-            event.accept(ModBlocks.BOBUX_BLOCK);
-        }
+
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
