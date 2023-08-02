@@ -12,7 +12,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, mcmod.MODID);
 
     public static final RegistryObject<Item> BOBUX = ITEMS.register("bobux",
-            () -> new Item(new Item.Properties()));
+            () -> new bobux(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
