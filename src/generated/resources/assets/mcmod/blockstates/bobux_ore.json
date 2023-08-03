@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model":"mcmod:block/bobux_ore"
+      "model": "mcmod:block/bobux_ore"
     }
   }
 }

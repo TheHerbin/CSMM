@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "mcmod:bobux_block"
+    "mcmod:bobux_block",
+    "mcmod:bobux_ore"
   ]
 }
